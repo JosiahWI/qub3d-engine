@@ -1,32 +1,51 @@
-# Prerequisites
-*.d
+**/bin
+**/build
+**/CMakeFiles
+**/CMakeScripts
+**/Testing
+**/nbproject
 
-# Compiled Object files
-*.slo
-*.lo
+bin
+build*
+CMakeFiles
+CMakeScripts
+Testing
+
+*.gcov
+*.gcda
+*.gcno
+*.user
+
+# Debug remnants
+.debug_pubnames
+.debug_pubtypes
+
+*.a
 *.o
 *.obj
-
-# Precompiled Headers
+*.out
+*.exe
 *.gch
 *.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
 *.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
+*.lai
+*.lo
+*.def
+*.exp
 *.app
+*.layout
+*.config
+*.kdev4
+
+# Build files
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+
+!default.config
+
+\.vs*/
