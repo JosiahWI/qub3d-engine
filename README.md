@@ -22,7 +22,12 @@ Thank you also to our many contributors!
 
 This project depends on the following:
 
-* [Qub3d Engine](https://github.com/qub3d/qub3dengine)
+* SDL2
+* GLEW
+* YAML-CPP
+* ImGUI
+* GLM
+* ENTT
 
 ## Contributions
 
